@@ -1,2 +1,2 @@
 # USDtoAUD
-Convert USD to AUD automatically | Firefox Extension
+Firefox extension to convert USD to AUD automatically 
