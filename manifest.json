@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "USDtoAUD",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://api.freecurrencyapi.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["convert-currency.js"]
+    }
+  ],
+  "options_page": "options.html"
+}
